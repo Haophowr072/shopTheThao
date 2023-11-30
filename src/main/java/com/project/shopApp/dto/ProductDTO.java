@@ -23,7 +23,6 @@ public class ProductDTO {
     @Max(value = 10000000, message = "Nhập giá nhỏ hơn hoặc bằng 10,000,000")
     private Float price;
 
-
     private String thumbnail;
 
     private String description;
